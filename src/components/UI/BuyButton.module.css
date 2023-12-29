@@ -1,0 +1,57 @@
+.button{
+    width: 10rem;
+    height: 30px;
+    background: rgb(37 99 235);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    gap: 8px;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+
+.button svg{
+    width: 12px;
+    color: #FFF;
+}
+
+.button span{
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.button:hover{
+    background: #1D4ED8;
+}
+
+.button:active{
+    transform: scale(0.8);
+}
+
+@media (min-width: 768px){
+    .button{
+        width: 12rem;
+        height: 40px;
+        background: rgb(37 99 235);
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        gap: 10px;
+        text-decoration: none;
+        transition: all .2s ease-in-out;
+    }
+    
+    .button svg{
+        width: 14px;
+        color: #FFF;
+    }
+    
+    .button span{
+        font-size: 20px;
+        margin-top: 4px;
+    }
+}
